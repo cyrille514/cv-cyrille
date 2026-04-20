@@ -1,0 +1,32 @@
+figure {
+  margin: 0;
+  /* Quita el margen que los navegadores ponen por defecto */
+  padding: 10px;
+  text-align: center;
+  /* Centra el figcaption si quieres que esté en medio */
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Hace que el mapa se adapte al ancho de la pantalla */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Cambia el cursor al pasar por un país para que sepa que es clicable */
+area {
+  cursor: pointer;
+}
+
+section {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
